@@ -1,16 +1,14 @@
 # Projects
 
-Here are some of my projects I mainly did during internship.
+Welcome to my project showcase! Below are some of the projects I developed primarily during my internship.
 
-ChatURL : 
-A StreamLit application where you can enter any website's URL and get a summary of it. This is done by doing RAG and using a LLM. 
+## ChatURL 
+ChatURL is a StreamLit application designed for summarizing any website's content. Simply input the URL, and it provides a concise summary using RAG (Retrieve, Aggregate, Generate) methodology coupled with a LLM.
 
-ChatPDF :
-A StreamLit application where you can upload any PDF and get a summary of it. This is done by doing RAG and unsing a LLM.
+## ChatPDF 
+ChatPDF is another StreamLit application tailored for summarizing PDF documents. Upload your PDF file, and receive a summary using RAG methodology, powered by a LLM.
 
-Medical Reports Pseudonymisation : 
-The main project I worked on during an internship involved pseudonymizing medical reports. The purpose was to conceal private information such as the patient's name or date of birth, which doctors typically include in their reports. The goal was to generate an ID for each patient and replace all instances of the patient's name in the text with this ID. One of the challenges was ensuring that the replacement process didn't inadvertently affect names of places, such as hospitals or addresses. Once the dictionary associating IDs with patient names was created, it would be used exclusively by the hospital to identify the patient associated with each report.
-Additionaly the goal is also to hide the date of birth and also to make sure other dates are not hide.
-This project was done by combining the use of NER and LLM. 
-
-
+## Medical Reports Pseudonymization 
+One of the main projects I undertook during my internship was the pseudonymization of medical reports. The aim was to safeguard sensitive patient information like names and dates of birth typically included in doctors' reports. The objective was to assign a unique ID to each patient and replace their name occurrences in the text with this ID. A significant challenge was ensuring that this process did not inadvertently alter names of locations, such as hospitals or addresses. Once the dictionary associating IDs with patient names was established, it would be exclusively utilized by the hospital to match patients with their reports.
+Additionally, the project aimed to conceal dates of birth while ensuring other date references remained unaffected.
+All this was achieved through a combination of Named Entity Recognition (NER) and LLM techniques.
