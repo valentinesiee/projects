@@ -38,7 +38,7 @@ def chunks_to_vectors(chunks):
 
 def response_to_question(question,vectordb):
     docs = vectordb.similarity_search(question)
-    llm = ChatCohere(cohere_api_key="PmX696EYpvEzZEyUGEuTynIyr1aNvTk5jjsVhZIJ")
+    llm = ChatCohere(cohere_api_key="YOUR API KEY")
     chain = load_qa_chain(llm,chain_type="stuff")
     answer = chain.run(input_documents=docs,question=question)
     return answer
