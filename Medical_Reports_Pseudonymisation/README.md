@@ -1,1 +1,1 @@
-
+In order to achieve the goal of the project I used a conbinaton of NER and LLM. Primiarly I tried them separately and both of the methods had advantages and disadvantages. I then decided to combine the methods to benefit from both of them. I used several Bert NER models that tokenize the text and classify the tokens. Each model act as a filter 
