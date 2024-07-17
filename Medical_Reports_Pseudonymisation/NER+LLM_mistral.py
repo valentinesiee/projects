@@ -82,8 +82,8 @@ def response_to_question(question):
     
 
     client_azure = VLLMOpenAI(
-    openai_api_base="https://stagiaires-mistral8X7B.iagen-ov.fr/v1",
-    openai_api_key="83AB3503-50AA-4B57-9386-B9F0BADF2024",
+    openai_api_base="YOUR BASE",
+    openai_api_key="YOR KEY",
     model_name="mistralai/Mixtral-8X7B-Instruct-v0.1",
     temperature=0.0,
     max_tokens=15000,
