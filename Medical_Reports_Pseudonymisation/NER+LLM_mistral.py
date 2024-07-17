@@ -83,7 +83,7 @@ def response_to_question(question):
 
     client_azure = VLLMOpenAI(
     openai_api_base="YOUR BASE",
-    openai_api_key="YOR KEY",
+    openai_api_key="YOUR KEY",
     model_name="mistralai/Mixtral-8X7B-Instruct-v0.1",
     temperature=0.0,
     max_tokens=15000,
