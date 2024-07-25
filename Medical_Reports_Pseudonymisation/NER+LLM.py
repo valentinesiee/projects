@@ -74,7 +74,7 @@ def response_to_question(question,vectordb):
         string: La réponse à la question
     """
     docs = vectordb.similarity_search(question)
-    llm = ChatCohere(cohere_api_key="agF4GQ3L3rILhDyCPpHfSOXhnKPPgHJF5PptHdIs")
+    llm = ChatCohere(cohere_api_key="YOUR API KEY")
     chain = load_qa_chain(llm,chain_type="stuff")
     answer = chain.run(input_documents=docs,question=question)
     return answer
