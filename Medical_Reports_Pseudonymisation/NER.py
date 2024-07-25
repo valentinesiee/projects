@@ -81,14 +81,14 @@ def response_to_question(question):
         string: La réponse à la question
     """
     # docs = vectordb.similarity_search(question)
-    # llm = ChatCohere(cohere_api_key="YOUR API KEY")
+    # llm = ChatCohere(cohere_api_key="YOUR_API_KEY")
     # chain = load_qa_chain(llm,chain_type="stuff")
     # answer = chain.run(input_documents=docs,question=question)
     
 
     client_azure = VLLMOpenAI(
-    openai_api_base="YOUR API BASE",
-    openai_api_key="YOUR API KEY",
+    openai_api_base="YOUR_API_BASE",
+    openai_api_key="YOUR_API_KEY",
     model_name="mistralai/Mixtral-8X7B-Instruct-v0.1",
     temperature=0.0,
     max_tokens=7000,
@@ -115,8 +115,7 @@ def extract_text_from_pdf(pdf_path):
     #         page_text = page.get_text()
     #         text += page_text
     # return text
-
-    pdf = PyMuPDFLoader(pdf_path.name).load()
+    pdf = PyMuPDFLoader("./Rapports medicaux fictifs/"+pdf_path.name).load()
     extracted_text = ""
     for document in pdf:
         content = document.page_content
@@ -329,7 +328,6 @@ def main():
                     results.extend(chunk_results)
 
                 for entity in results:
-                    print(entity)
                     if entity['entity_group'] == 'AGE':
                         entity['word'] = entity['word'].strip()
                         cleaned_text = cleaned_text.replace(entity['word'],' X')
@@ -350,7 +348,7 @@ def main():
                                 index.append(result['end'])
                                 name_to_id[current_person_id] += result['word']
                                 for a in results:
-                                    if (a['start'] == int(result['end']) or a['start'] == int(result['end'])+1) and a['entity_group'] != 'PATIENT':
+                                    if ( (a['start'] == int(result['end'])) ) and a['entity_group'] == 'O':
                                         index = []
 
                 for cle in name_to_id:
@@ -531,7 +529,6 @@ def main():
                     -If there is no problems just answer : 'None'. 
                     Give me only the list without sentences like 'Here is ...'
                 """)
-                print(problems)
                 print("\nFin Neuvième appel\n")
                 print("\nDixième appel\n")
                 treatments = response_to_question(f"""
@@ -554,7 +551,7 @@ def main():
                     - Replace {code_postal} with 'CODE_POSTAL'. Only replace this specific zip code.
                     - Replace the patient's phone number with 'NUMERO_DE_TELEPHONE'.
                     - Ensure the patient's address (street name and number) is replaced by 'ADRESSE'.
-                    - Replace the patient's age with 'X', usually near 'year old'.
+                    - Replace only the patient's age if it's present in ther text with 'X', usually near 'years old'. 
                     - Keep 'DATE_DE_NAISSANCE', 'VILLE', 'CODE_POSTAL', 'ID', 'ADRESSE', 'NUMERO_DE_TELEPHONE', and 'X' as they are if they appear in the pseudonymized text i gave you.
                     - If none of these changes apply, return the text as is.
                     - Make sure the ID of the patient are not replaced.
@@ -608,7 +605,7 @@ def main():
                 pdf.add_page()
                 pdf.set_font("Arial", size=12)
                 pdf.multi_cell(0, 10, pseudonymized_text)
-                repertoire = "." 
+                repertoire = "./Rapports medicaux fictifs/" 
                 st.subheader("Output :")
 
                 if os.access(repertoire, os.W_OK):
