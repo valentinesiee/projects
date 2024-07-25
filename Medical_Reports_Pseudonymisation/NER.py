@@ -81,14 +81,14 @@ def response_to_question(question):
         string: La réponse à la question
     """
     # docs = vectordb.similarity_search(question)
-    # llm = ChatCohere(cohere_api_key="WAdnOK7MEVQIzXktdZzGEYywOB89J5LMUnO0a24O")
+    # llm = ChatCohere(cohere_api_key="YOUR API KEY")
     # chain = load_qa_chain(llm,chain_type="stuff")
     # answer = chain.run(input_documents=docs,question=question)
     
 
     client_azure = VLLMOpenAI(
-    openai_api_base="https://stagiaires.llm.iagen-ov.fr/v1",
-    openai_api_key="E5A29DFB-D08C-4C09-BE8F-5231616CDDAD",
+    openai_api_base="YOUR API BASE",
+    openai_api_key="YOUR API KEY",
     model_name="mistralai/Mixtral-8X7B-Instruct-v0.1",
     temperature=0.0,
     max_tokens=7000,
