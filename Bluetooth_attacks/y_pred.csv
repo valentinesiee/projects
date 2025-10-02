@@ -1,0 +1,692 @@
+,Protocol,Info,Length,Delta,Type
+0,Baseband,FHS,28,1.246406,attack
+1,Baseband,FHS,28,1.256744,attack
+2,Baseband,FHS,28,0.073231,attack
+3,Baseband,FHS,28,0.076976,attack
+4,Baseband,FHS,28,1.210525,attack
+5,Baseband,FHS,28,0.079468,attack
+6,Baseband,FHS,28,1.211332,attack
+7,Baseband,FHS,28,0.07753,attack
+8,Baseband,FHS,28,1.218111,attack
+9,HCI H4 Broadcom,LM Received,64,0.01032,attack
+10,HCI H4 Broadcom,LM Received,64,0.004944,attack
+11,HCI H4 Broadcom,LM Sent,64,8.032934,attack
+12,HCI H4 Broadcom,LM Sent,64,2.299231,attack
+13,HCI H4 Broadcom,LM Sent,64,5.031704,attack
+14,HCI H4 Broadcom,LM Sent,64,0.010186,attack
+15,LMP,LMP_accepted,64,0.000965,attack
+16,LMP,LMP_accepted,64,0.001134,attack
+17,LMP,LMP_accepted,14,0.057252,attack
+18,LMP,LMP_accepted,64,0.001607,attack
+19,LMP,LMP_accepted,14,0.082319,attack
+20,LMP,LMP_accepted,64,0.000848,attack
+21,LMP,LMP_accepted,14,2.00355,attack
+22,LMP,LMP_accepted_ext,16,0.000185,attack
+23,LMP,LMP_accepted_ext,16,1.907992,attack
+24,LMP,LMP_au_rand,29,0.00087,attack
+25,LMP,LMP_au_rand,29,0.00058,attack
+26,LMP,LMP_au_rand,29,0.000871,attack
+27,LMP,LMP_au_rand,29,0.001945,attack
+28,LMP,LMP_au_rand,29,0.000299,attack
+29,LMP,LMP_au_rand,29,0.001521,attack
+30,LMP,LMP_au_rand,29,0.000164,attack
+31,LMP,LMP_au_rand,29,0.012988,attack
+32,LMP,LMP_au_rand,64,0.001127,attack
+33,LMP,LMP_au_rand,29,0.000149,attack
+34,LMP,LMP_au_rand,29,0.139489,attack
+35,LMP,LMP_au_rand,29,0.001677,attack
+36,LMP,LMP_au_rand,29,0.000854,attack
+37,LMP,LMP_au_rand,29,0.00155,attack
+38,LMP,LMP_au_rand,29,0.001164,attack
+39,LMP,LMP_au_rand,29,0.001263,attack
+40,LMP,LMP_au_rand,29,0.00102,attack
+41,LMP,LMP_auto_rate,13,0.007522,attack
+42,LMP,LMP_auto_rate,13,0.000149,attack
+43,LMP,LMP_auto_rate,13,0.000234,attack
+44,LMP,LMP_channel_classification,24,0.002782,attack
+45,LMP,LMP_channel_classification,24,0.002537,attack
+46,LMP,LMP_channel_classification_req,19,0.002004,attack
+47,LMP,LMP_channel_classification_req,19,0.00316,attack
+48,LMP,LMP_detach,14,0.001107,attack
+49,LMP,LMP_detach,14,0.010859,attack
+50,LMP,LMP_detach,14,0.000224,attack
+51,LMP,LMP_detach,14,0.004455,attack
+52,LMP,LMP_detach,14,0.000542,attack
+53,LMP,LMP_detach,14,0.000357,attack
+54,LMP,LMP_detach,14,0.000407,attack
+55,LMP,LMP_features_req,21,0.872195,attack
+56,LMP,LMP_features_req,21,0.022649,attack
+57,LMP,LMP_features_req,21,0.871822,attack
+58,LMP,LMP_features_req,21,0.010424,attack
+59,LMP,LMP_features_req,21,0.003866,attack
+60,LMP,LMP_features_req,21,0.021156,attack
+61,LMP,LMP_features_req,21,0.002721,attack
+62,LMP,LMP_features_req,21,0.003016,attack
+63,LMP,LMP_features_req,21,8.746215,attack
+64,LMP,LMP_features_req,21,8.256662,attack
+65,LMP,LMP_features_req,21,0.003103,attack
+66,LMP,LMP_features_req_ext,24,0.000248,attack
+67,LMP,LMP_features_req_ext,24,0.000241,attack
+68,LMP,LMP_features_req_ext,24,0.00477,attack
+69,LMP,LMP_features_req_ext,24,0.000307,attack
+70,LMP,LMP_features_req_ext,64,0.008741,attack
+71,LMP,LMP_features_req_ext,24,0.000489,attack
+72,LMP,LMP_features_req_ext,24,0.000183,attack
+73,LMP,LMP_features_req_ext,24,0.000102,attack
+74,LMP,LMP_features_req_ext,24,0.000256,attack
+75,LMP,LMP_features_req_ext,24,0.000236,attack
+76,LMP,LMP_features_req_ext,24,0.000831,attack
+77,LMP,LMP_features_req_ext,24,0.000333,attack
+78,LMP,LMP_features_req_ext,24,2.00098,attack
+79,LMP,LMP_features_req_ext,24,0.000227,attack
+80,LMP,LMP_features_req_ext,24,0.000238,attack
+81,LMP,LMP_features_req_ext,24,0.000227,attack
+82,LMP,LMP_features_req_ext,24,0.000235,attack
+83,LMP,LMP_features_req_ext,24,9.3e-05,attack
+84,LMP,LMP_features_req_ext,24,0.000436,attack
+85,LMP,LMP_features_req_ext,24,0.000291,attack
+86,LMP,LMP_features_req_ext,24,0.000159,attack
+87,LMP,LMP_features_req_ext,24,0.000195,attack
+88,LMP,LMP_features_req_ext,24,0.000174,attack
+89,LMP,LMP_features_res,21,0.000453,attack
+90,LMP,LMP_features_res,21,0.055864,attack
+91,LMP,LMP_features_res,21,0.000707,attack
+92,LMP,LMP_features_res,21,0.035069,attack
+93,LMP,LMP_features_res,21,0.000368,attack
+94,LMP,LMP_features_res,21,0.060441,attack
+95,LMP,LMP_features_res,21,0.010175,attack
+96,LMP,LMP_features_res,21,0.003041,attack
+97,LMP,LMP_features_res,21,0.009664,attack
+98,LMP,LMP_features_res,21,0.001787,attack
+99,LMP,LMP_features_res,21,0.001095,attack
+100,LMP,LMP_features_res,21,0.001834,attack
+101,LMP,LMP_features_res,21,0.00114,attack
+102,LMP,LMP_features_res,21,0.001359,attack
+103,LMP,LMP_features_res,21,0.061717,attack
+104,LMP,LMP_features_res,21,0.061259,attack
+105,LMP,LMP_features_res,21,0.065661,attack
+106,LMP,LMP_features_res,21,0.001127,attack
+107,LMP,LMP_features_res,21,0.000269,attack
+108,LMP,LMP_features_res,21,0.000128,attack
+109,LMP,LMP_features_res_ext,24,0.033129,attack
+110,LMP,LMP_features_res_ext,24,0.00583,attack
+111,LMP,LMP_features_res_ext,24,0.028417,attack
+112,LMP,LMP_features_res_ext,24,0.004817,attack
+113,LMP,LMP_features_res_ext,24,0.002351,attack
+114,LMP,LMP_features_res_ext,24,0.006188,attack
+115,LMP,LMP_features_res_ext,24,0.007834,attack
+116,LMP,LMP_features_res_ext,24,0.005591,attack
+117,LMP,LMP_features_res_ext,24,0.022564,attack
+118,LMP,LMP_features_res_ext,24,0.027595,attack
+119,LMP,LMP_features_res_ext,24,0.005823,attack
+120,LMP,LMP_features_res_ext,24,0.004069,attack
+121,LMP,LMP_features_res_ext,24,0.005773,attack
+122,LMP,LMP_features_res_ext,24,0.032202,attack
+123,LMP,LMP_host_connection_req,13,1.497177,attack
+124,LMP,LMP_host_connection_req,13,0.001841,attack
+125,LMP,LMP_host_connection_req,13,0.000398,attack
+126,LMP,LMP_host_connection_req,13,0.000281,attack
+127,LMP,LMP_host_connection_req,13,0.002477,attack
+128,LMP,LMP_host_connection_req,13,1.45297,attack
+129,LMP,LMP_host_connection_req,13,0.000489,attack
+130,LMP,LMP_host_connection_req,13,0.000422,attack
+131,LMP,LMP_host_connection_req,13,0.000186,attack
+132,LMP,LMP_max_slot,14,0.000322,attack
+133,LMP,LMP_max_slot,14,0.002465,attack
+134,LMP,LMP_max_slot,14,0.000509,attack
+135,LMP,LMP_max_slot_req,14,0.004451,attack
+136,LMP,LMP_max_slot_req,14,0.001355,attack
+137,LMP,LMP_not_accepted,15,0.025507,attack
+138,LMP,LMP_not_accepted,15,0.003145,attack
+139,LMP,LMP_not_accepted,15,0.025705,attack
+140,LMP,LMP_not_accepted,15,0.032583,attack
+141,LMP,LMP_not_accepted,15,0.000195,attack
+142,LMP,LMP_not_accepted,15,0.002531,attack
+143,LMP,LMP_not_accepted,15,0.00652,attack
+144,LMP,LMP_not_accepted_ext,17,0.001152,attack
+145,LMP,LMP_not_accepted_ext,17,0.002528,attack
+146,LMP,LMP_not_accepted_ext,17,0.00083,attack
+147,LMP,LMP_packet_type_table_req,15,0.002564,attack
+148,LMP,LMP_packet_type_table_req,15,0.004487,attack
+149,LMP,LMP_packet_type_table_req,15,0.001811,attack
+150,LMP,LMP_power_control_req,64,0.007086,attack
+151,LMP,LMP_power_control_req,64,0.001516,attack
+152,LMP,LMP_power_control_req,64,0.000549,attack
+153,LMP,LMP_power_control_req,64,0.016589,attack
+154,LMP,LMP_power_control_res,64,0.006655,attack
+155,LMP,LMP_power_control_res,64,0.001106,attack
+156,LMP,LMP_power_control_res,64,0.000952,attack
+157,LMP,LMP_set_AFH,28,0.002262,attack
+158,LMP,LMP_set_AFH,64,0.244372,attack
+159,LMP,LMP_set_AFH,64,0.935667,attack
+160,LMP,LMP_setup_complete,13,0.004085,attack
+161,LMP,LMP_setup_complete,13,0.003417,attack
+162,LMP,LMP_setup_complete,13,0.000229,attack
+163,LMP,LMP_setup_complete,13,0.002171,attack
+164,LMP,LMP_timing_accuracy_req,13,0.001731,attack
+165,LMP,LMP_timing_accuracy_req,13,0.003882,attack
+166,LMP,LMP_timing_accuracy_req,13,0.000211,attack
+167,LMP,LMP_timing_accuracy_req,13,0.000209,attack
+168,LMP,LMP_timing_accuracy_req,13,0.000258,attack
+169,LMP,LMP_timing_accuracy_req,64,0.000523,attack
+170,LMP,LMP_timing_accuracy_req,13,0.000324,attack
+171,LMP,LMP_timing_accuracy_req,13,0.000254,attack
+172,LMP,LMP_timing_accuracy_res,15,0.000287,attack
+173,LMP,LMP_timing_accuracy_res,15,0.026763,attack
+174,LMP,LMP_timing_accuracy_res,15,0.005829,attack
+175,LMP,LMP_timing_accuracy_res,15,0.005218,attack
+176,LMP,LMP_timing_accuracy_res,15,0.006679,attack
+177,LMP,LMP_timing_accuracy_res,15,0.03253,attack
+178,LMP,LMP_timing_accuracy_res,15,0.000209,attack
+179,LMP,LMP_timing_accuracy_res,15,0.000484,attack
+180,LMP,LMP_version_req,18,0.000189,attack
+181,LMP,LMP_version_req,18,0.00052,attack
+182,LMP,LMP_version_req,18,0.000263,attack
+183,LMP,LMP_version_req,18,0.000274,attack
+184,LMP,LMP_version_req,18,0.000212,attack
+185,LMP,LMP_version_req,18,0.000221,attack
+186,LMP,LMP_version_req,18,0.000388,attack
+187,LMP,LMP_version_res,18,0.006455,attack
+188,LMP,LMP_version_res,18,0.005885,attack
+189,LMP,LMP_version_res,18,0.008124,attack
+190,LMP,LMP_version_res,18,0.006688,attack
+191,LMP,LMP_version_res,18,0.006711,attack
+192,LMP,LMP_version_res,18,0.005921,attack
+193,LMP,LMP_version_res,18,0.058368,attack
+194,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.000549,attack
+195,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.000534,attack
+196,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.001754,attack
+197,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.001841,attack
+198,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.00182,attack
+199,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.001914,attack
+200,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.000756,attack
+201,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.001463,attack
+202,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.0018,attack
+203,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.00108,attack
+204,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.001492,attack
+205,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.001802,attack
+206,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.001885,attack
+207,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.002049,attack
+208,HCI_EVT,Rcvd Command Complete (Link Key Request Negative Reply),13,0.006037,attack
+209,HCI_EVT,Rcvd Command Complete (Write Link Policy Settings),9,0.00089,attack
+210,HCI_EVT,Rcvd Command Complete (Write Link Policy Settings),9,0.000497,attack
+211,HCI_EVT,Rcvd Command Complete (Write Link Policy Settings),9,0.001061,attack
+212,HCI_EVT,Rcvd Command Complete (Write Scan Enable),7,0.003713,attack
+213,HCI_EVT,Rcvd Command Complete (Write Scan Enable),7,0.0024,attack
+214,HCI_EVT,Rcvd Command Status (Accept Connection Request),7,0.001806,attack
+215,HCI_EVT,Rcvd Command Status (Accept Connection Request),7,0.012523,attack
+216,HCI_EVT,Rcvd Command Status (Accept Connection Request),7,0.015807,attack
+217,HCI_EVT,Rcvd Command Status (Accept Connection Request),7,0.012884,attack
+218,HCI_EVT,Rcvd Command Status (Change Connection Packet Type),7,0.014542,attack
+219,HCI_EVT,Rcvd Command Status (Change Connection Packet Type),7,0.000504,attack
+220,HCI_EVT,Rcvd Command Status (Read Clock offset),7,0.000502,attack
+221,HCI_EVT,Rcvd Command Status (Read Clock offset),7,0.000748,attack
+222,HCI_EVT,Rcvd Command Status (Read Remote Extended Features),7,0.000847,attack
+223,HCI_EVT,Rcvd Command Status (Read Remote Extended Features),7,0.001035,attack
+224,HCI_EVT,Rcvd Command Status (Read Remote Version Information),7,0.000516,attack
+225,HCI_EVT,Rcvd Command Status (Read Remote Version Information),7,0.00075,attack
+226,HCI_EVT,Rcvd Connect Complete,14,0.000846,attack
+227,HCI_EVT,Rcvd Connect Complete,14,0.010161,attack
+228,HCI_EVT,Rcvd Connect Complete,14,0.056478,attack
+229,HCI_EVT,Rcvd Connect Complete,14,0.058214,attack
+230,HCI_EVT,Rcvd Connect Request,13,0.000509,attack
+231,HCI_EVT,Rcvd Connect Request,13,0.005567,attack
+232,HCI_EVT,Rcvd Connect Request,13,0.004928,attack
+233,HCI_EVT,Rcvd Connect Request,13,0.004267,attack
+234,HCI_EVT,Rcvd Disconnect Complete,7,0.005097,attack
+235,HCI_EVT,Rcvd Disconnect Complete,7,0.004693,attack
+236,HCI_EVT,Rcvd LE Meta (LE Advertising Report),44,0.349287,attack
+237,HCI_EVT,Rcvd LE Meta (LE Advertising Report),44,1.057265,attack
+238,HCI_EVT,Rcvd Link Key Request,9,0.030996,attack
+239,HCI_EVT,Rcvd Link Key Request,9,0.000628,attack
+240,HCI_EVT,Rcvd Link Key Request,9,0.000522,attack
+241,HCI_EVT,Rcvd Link Key Request,9,0.002708,attack
+242,HCI_EVT,Rcvd Link Key Request,9,0.000577,attack
+243,HCI_EVT,Rcvd Link Key Request,9,0.001081,attack
+244,HCI_EVT,Rcvd Link Key Request,9,0.001594,attack
+245,HCI_EVT,Rcvd Link Key Request,9,0.000639,attack
+246,HCI_EVT,Rcvd Link Key Request,9,0.001142,attack
+247,HCI_EVT,Rcvd Link Key Request,9,0.000558,attack
+248,HCI_EVT,Rcvd Link Key Request,9,0.000579,attack
+249,HCI_EVT,Rcvd Link Key Request,9,0.000542,attack
+250,HCI_EVT,Rcvd Link Key Request,9,0.000554,attack
+251,HCI_EVT,Rcvd Max Slots Change,6,0.000559,attack
+252,HCI_EVT,Rcvd Max Slots Change,6,0.000485,attack
+253,HCI_EVT,Rcvd Number of Completed Packets,8,0.027688,normal
+254,HCI_EVT,Rcvd Number of Completed Packets,8,0.000913,normal
+255,HCI_EVT,Rcvd Number of Completed Packets,8,0.002271,normal
+256,HCI_EVT,Rcvd Number of Completed Packets,8,0.00053,normal
+257,HCI_EVT,Rcvd Number of Completed Packets,8,0.001585,normal
+258,HCI_EVT,Rcvd Number of Completed Packets,8,0.016513,normal
+259,HCI_EVT,Rcvd Number of Completed Packets,8,0.000949,normal
+260,HCI_EVT,Rcvd Number of Completed Packets,8,0.001111,normal
+261,HCI_EVT,Rcvd Number of Completed Packets,8,0.002399,normal
+262,HCI_EVT,Rcvd Number of Completed Packets,8,0.017733,normal
+263,HCI_EVT,Rcvd Number of Completed Packets,8,0.000829,normal
+264,HCI_EVT,Rcvd Number of Completed Packets,8,0.00099,normal
+265,HCI_EVT,Rcvd Number of Completed Packets,8,0.003593,normal
+266,HCI_EVT,Rcvd Number of Completed Packets,8,0.005159,normal
+267,HCI_EVT,Rcvd Number of Completed Packets,8,0.004062,normal
+268,HCI_EVT,Rcvd Number of Completed Packets,8,0.000997,normal
+269,HCI_EVT,Rcvd Number of Completed Packets,8,0.01148,normal
+270,HCI_EVT,Rcvd Number of Completed Packets,8,0.000583,normal
+271,HCI_EVT,Rcvd Number of Completed Packets,8,0.000976,normal
+272,HCI_EVT,Rcvd Number of Completed Packets,8,0.013834,normal
+273,HCI_EVT,Rcvd Number of Completed Packets,8,0.001236,normal
+274,HCI_EVT,Rcvd Number of Completed Packets,8,0.001011,normal
+275,HCI_EVT,Rcvd Number of Completed Packets,8,0.000792,normal
+276,HCI_EVT,Rcvd Number of Completed Packets,8,0.004644,normal
+277,HCI_EVT,Rcvd Number of Completed Packets,8,0.005022,normal
+278,HCI_EVT,Rcvd Number of Completed Packets,8,0.050348,normal
+279,HCI_EVT,Rcvd Number of Completed Packets,8,0.002981,normal
+280,HCI_EVT,Rcvd Number of Completed Packets,8,0.001041,normal
+281,HCI_EVT,Rcvd Number of Completed Packets,8,0.012095,normal
+282,HCI_EVT,Rcvd Number of Completed Packets,8,0.004015,normal
+283,HCI_EVT,Rcvd Number of Completed Packets,8,0.00056,normal
+284,HCI_EVT,Rcvd Number of Completed Packets,8,0.001173,normal
+285,HCI_EVT,Rcvd Number of Completed Packets,8,0.001192,normal
+286,HCI_EVT,Rcvd Number of Completed Packets,8,0.000611,normal
+287,HCI_EVT,Rcvd Number of Completed Packets,8,0.001888,normal
+288,HCI_EVT,Rcvd Number of Completed Packets,8,0.000841,normal
+289,HCI_EVT,Rcvd Number of Completed Packets,8,0.001564,normal
+290,HCI_EVT,Rcvd Number of Completed Packets,8,0.000939,normal
+291,HCI_EVT,Rcvd Number of Completed Packets,8,0.001794,normal
+292,HCI_EVT,Rcvd Number of Completed Packets,8,0.001213,normal
+293,HCI_EVT,Rcvd Number of Completed Packets,8,0.0038,normal
+294,HCI_EVT,Rcvd Number of Completed Packets,8,0.001026,normal
+295,HCI_EVT,Rcvd Number of Completed Packets,8,0.000962,normal
+296,HCI_EVT,Rcvd Number of Completed Packets,8,0.000889,normal
+297,OBEX,Rcvd OBEX fragment,1004,0.003436,normal
+298,OBEX,Rcvd OBEX fragment,1004,0.001295,normal
+299,OBEX,Rcvd OBEX fragment,1004,0.032811,normal
+300,OBEX,Rcvd OBEX fragment,1004,0.003147,normal
+301,OBEX,Rcvd OBEX fragment,1004,0.004853,normal
+302,OBEX,Rcvd OBEX fragment,1004,0.001794,normal
+303,OBEX,Rcvd OBEX fragment,1004,0.002371,normal
+304,OBEX,Rcvd OBEX fragment,1004,0.001832,normal
+305,OBEX,Rcvd OBEX fragment,1004,0.005654,normal
+306,OBEX,Rcvd OBEX fragment,1004,0.000866,normal
+307,OBEX,Rcvd OBEX fragment,1004,0.001077,normal
+308,OBEX,Rcvd OBEX fragment,1004,0.00153,normal
+309,OBEX,Rcvd OBEX fragment,1004,0.001143,normal
+310,OBEX,Rcvd OBEX fragment,1004,0.003316,normal
+311,OBEX,Rcvd OBEX fragment,1004,0.001466,normal
+312,OBEX,Rcvd OBEX fragment,1004,0.079072,normal
+313,OBEX,Rcvd OBEX fragment,1004,0.001255,normal
+314,OBEX,Rcvd OBEX fragment,1004,0.005011,normal
+315,OBEX,Rcvd OBEX fragment,1004,0.003511,normal
+316,OBEX,Rcvd OBEX fragment,1004,0.002398,normal
+317,OBEX,Rcvd OBEX fragment,1004,0.028761,normal
+318,OBEX,Rcvd OBEX fragment,1004,0.003673,normal
+319,OBEX,Rcvd OBEX fragment,1004,0.001424,normal
+320,OBEX,Rcvd OBEX fragment,1004,0.00482,normal
+321,OBEX,Rcvd OBEX fragment,1004,0.006064,normal
+322,OBEX,Rcvd OBEX fragment,1004,0.002123,normal
+323,OBEX,Rcvd OBEX fragment,1004,0.001279,normal
+324,OBEX,Rcvd OBEX fragment,1004,0.001927,normal
+325,OBEX,Rcvd OBEX fragment,1004,0.004072,normal
+326,OBEX,Rcvd OBEX fragment,1004,0.001533,normal
+327,OBEX,Rcvd OBEX fragment,1004,0.001867,normal
+328,OBEX,Rcvd OBEX fragment,1004,0.004729,normal
+329,OBEX,Rcvd OBEX fragment,1004,0.00283,normal
+330,OBEX,Rcvd OBEX fragment,1004,0.001195,normal
+331,OBEX,Rcvd OBEX fragment,1004,0.004524,normal
+332,OBEX,Rcvd OBEX fragment,1004,0.002082,normal
+333,OBEX,Rcvd OBEX fragment,1004,0.001656,normal
+334,OBEX,Rcvd OBEX fragment,1004,0.002569,normal
+335,OBEX,Rcvd OBEX fragment,1004,0.003671,normal
+336,OBEX,Rcvd OBEX fragment,1004,0.006126,normal
+337,OBEX,Rcvd OBEX fragment,1004,0.002395,normal
+338,OBEX,Rcvd OBEX fragment,1004,0.001544,normal
+339,OBEX,Rcvd OBEX fragment,1004,0.001591,normal
+340,OBEX,Rcvd OBEX fragment,1004,0.00258,normal
+341,OBEX,Rcvd OBEX fragment,1004,0.006921,normal
+342,OBEX,Rcvd OBEX fragment,1004,0.002434,normal
+343,OBEX,Rcvd OBEX fragment,1004,0.007362,normal
+344,OBEX,Rcvd OBEX fragment,1004,0.003549,normal
+345,OBEX,Rcvd OBEX fragment,1004,0.000939,normal
+346,OBEX,Rcvd OBEX fragment,1004,0.001104,normal
+347,OBEX,Rcvd OBEX fragment,1004,0.00141,normal
+348,OBEX,Rcvd OBEX fragment,1004,0.001473,normal
+349,OBEX,Rcvd OBEX fragment,1004,0.003831,normal
+350,OBEX,Rcvd OBEX fragment,1004,0.007753,normal
+351,OBEX,Rcvd OBEX fragment,1004,0.00749,normal
+352,OBEX,Rcvd OBEX fragment,1004,0.001594,normal
+353,OBEX,Rcvd OBEX fragment,1004,0.002895,normal
+354,OBEX,Rcvd OBEX fragment,1004,0.003181,normal
+355,OBEX,Rcvd OBEX fragment,1004,0.041114,normal
+356,OBEX,Rcvd OBEX fragment,1004,0.008803,normal
+357,OBEX,Rcvd OBEX fragment,1004,0.016249,normal
+358,OBEX,Rcvd OBEX fragment,1004,0.002602,normal
+359,OBEX,Rcvd OBEX fragment,1004,0.003715,normal
+360,OBEX,Rcvd OBEX fragment,1004,0.004051,normal
+361,OBEX,Rcvd OBEX fragment,1004,0.004059,normal
+362,OBEX,Rcvd OBEX fragment,1004,0.007873,normal
+363,OBEX,Rcvd OBEX fragment,1004,0.000884,normal
+364,OBEX,Rcvd OBEX fragment,1004,0.001023,normal
+365,OBEX,Rcvd OBEX fragment,1004,0.003722,normal
+366,OBEX,Rcvd OBEX fragment,1004,0.003766,normal
+367,OBEX,Rcvd OBEX fragment,1004,0.003852,normal
+368,OBEX,Rcvd OBEX fragment,1004,0.000987,normal
+369,OBEX,Rcvd OBEX fragment,1004,0.001257,normal
+370,OBEX,Rcvd OBEX fragment,1004,0.003805,normal
+371,OBEX,Rcvd OBEX fragment,1004,0.00102,normal
+372,OBEX,Rcvd OBEX fragment,1004,0.004106,normal
+373,OBEX,Rcvd OBEX fragment,1004,0.005878,normal
+374,OBEX,Rcvd OBEX fragment,1004,0.011092,normal
+375,OBEX,Rcvd OBEX fragment,1004,0.003647,normal
+376,OBEX,Rcvd OBEX fragment,1004,0.001053,normal
+377,OBEX,Rcvd OBEX fragment,1004,0.001546,normal
+378,OBEX,Rcvd OBEX fragment,1004,0.003444,normal
+379,OBEX,Rcvd OBEX fragment,1004,0.000845,normal
+380,OBEX,Rcvd OBEX fragment,1004,0.011122,normal
+381,OBEX,Rcvd OBEX fragment,1004,0.002976,normal
+382,OBEX,Rcvd OBEX fragment,1004,0.002004,normal
+383,OBEX,Rcvd OBEX fragment,1004,0.008747,normal
+384,OBEX,Rcvd OBEX fragment,1004,0.003279,normal
+385,OBEX,Rcvd OBEX fragment,1004,0.003754,normal
+386,OBEX,Rcvd OBEX fragment,1004,0.001405,normal
+387,OBEX,Rcvd OBEX fragment,1004,0.008377,normal
+388,OBEX,Rcvd OBEX fragment,1004,0.004107,normal
+389,OBEX,Rcvd OBEX fragment,1004,0.003915,normal
+390,OBEX,Rcvd OBEX fragment,1004,0.002897,normal
+391,OBEX,Rcvd OBEX fragment,1004,0.002873,normal
+392,OBEX,Rcvd OBEX fragment,1004,0.003781,normal
+393,OBEX,Rcvd OBEX fragment,1004,0.00183,normal
+394,OBEX,Rcvd OBEX fragment,1004,0.004031,normal
+395,OBEX,Rcvd OBEX fragment,1004,0.004011,normal
+396,OBEX,Rcvd OBEX fragment,1004,0.003371,normal
+397,OBEX,Rcvd OBEX fragment,1004,0.004487,normal
+398,OBEX,Rcvd OBEX fragment,1004,0.005095,normal
+399,OBEX,Rcvd OBEX fragment,1004,0.000876,normal
+400,OBEX,Rcvd OBEX fragment,1004,0.003344,normal
+401,OBEX,Rcvd OBEX fragment,1004,0.003004,normal
+402,OBEX,Rcvd OBEX fragment,1004,0.003112,normal
+403,OBEX,Rcvd OBEX fragment,1004,0.002937,normal
+404,OBEX,Rcvd OBEX fragment,1004,0.001372,normal
+405,OBEX,Rcvd OBEX fragment,1004,0.04605,normal
+406,OBEX,Rcvd OBEX fragment,1004,0.012541,normal
+407,OBEX,Rcvd OBEX fragment,1004,0.000895,normal
+408,OBEX,Rcvd OBEX fragment,1004,0.001043,normal
+409,OBEX,Rcvd OBEX fragment,1004,0.001373,normal
+410,OBEX,Rcvd OBEX fragment,1004,0.002266,normal
+411,OBEX,Rcvd OBEX fragment,1004,0.001845,normal
+412,OBEX,Rcvd OBEX fragment,1004,0.002464,normal
+413,OBEX,Rcvd OBEX fragment,1004,0.002876,normal
+414,OBEX,Rcvd OBEX fragment,1004,0.006107,normal
+415,OBEX,Rcvd OBEX fragment,1004,0.002039,normal
+416,OBEX,Rcvd OBEX fragment,1004,0.002769,normal
+417,OBEX,Rcvd OBEX fragment,1004,0.002083,normal
+418,OBEX,Rcvd OBEX fragment,1004,0.000893,normal
+419,OBEX,Rcvd OBEX fragment,1004,0.003737,normal
+420,OBEX,Rcvd OBEX fragment,1004,0.001706,normal
+421,OBEX,Rcvd OBEX fragment,1004,0.003897,normal
+422,OBEX,Rcvd OBEX fragment,1004,0.001208,normal
+423,OBEX,Rcvd OBEX fragment,1004,0.003141,normal
+424,OBEX,Rcvd OBEX fragment,1004,0.002286,normal
+425,OBEX,Rcvd OBEX fragment,1004,0.003249,normal
+426,OBEX,Rcvd OBEX fragment,1004,0.003808,normal
+427,OBEX,Rcvd OBEX fragment,1004,0.007492,normal
+428,OBEX,Rcvd OBEX fragment,1004,0.001768,normal
+429,OBEX,Rcvd OBEX fragment,1004,0.003413,normal
+430,OBEX,Rcvd OBEX fragment,1004,0.000805,normal
+431,OBEX,Rcvd OBEX fragment,1004,0.004185,normal
+432,OBEX,Rcvd OBEX fragment,1004,0.001233,normal
+433,OBEX,Rcvd OBEX fragment,1004,0.002373,normal
+434,OBEX,Rcvd OBEX fragment,1004,0.002737,normal
+435,OBEX,Rcvd OBEX fragment,1004,0.012305,normal
+436,OBEX,Rcvd OBEX fragment,1004,0.003366,normal
+437,OBEX,Rcvd OBEX fragment,1004,0.004385,normal
+438,OBEX,Rcvd OBEX fragment,1004,0.002404,normal
+439,OBEX,Rcvd OBEX fragment,1004,0.009954,normal
+440,OBEX,Rcvd OBEX fragment,1004,0.00306,normal
+441,OBEX,Rcvd OBEX fragment,1004,0.007843,normal
+442,OBEX,Rcvd OBEX fragment,1004,0.003783,normal
+443,OBEX,Rcvd OBEX fragment,1004,0.010015,normal
+444,OBEX,Rcvd OBEX fragment,1004,0.002532,normal
+445,OBEX,Rcvd OBEX fragment,1004,0.049844,normal
+446,OBEX,Rcvd OBEX fragment,1004,0.00123,normal
+447,OBEX,Rcvd OBEX fragment,1004,0.006861,normal
+448,OBEX,Rcvd OBEX fragment,1004,0.00484,normal
+449,OBEX,Rcvd OBEX fragment,1004,0.032069,normal
+450,OBEX,Rcvd OBEX fragment,1004,0.002972,normal
+451,OBEX,Rcvd OBEX fragment,1004,0.02874,normal
+452,OBEX,Rcvd OBEX fragment,1004,0.001032,normal
+453,OBEX,Rcvd OBEX fragment,1004,0.000736,normal
+454,OBEX,Rcvd OBEX fragment,1004,0.003073,normal
+455,OBEX,Rcvd OBEX fragment,1004,0.000846,normal
+456,OBEX,Rcvd OBEX fragment,1004,0.002476,normal
+457,OBEX,Rcvd OBEX fragment,1004,0.002144,normal
+458,OBEX,Rcvd OBEX fragment,1004,0.003137,normal
+459,OBEX,Rcvd OBEX fragment,1004,0.002202,normal
+460,OBEX,Rcvd OBEX fragment,1004,0.00493,normal
+461,OBEX,Rcvd OBEX fragment,1004,0.003561,normal
+462,OBEX,Rcvd OBEX fragment,1004,0.001024,normal
+463,OBEX,Rcvd OBEX fragment,1004,0.008787,normal
+464,OBEX,Rcvd OBEX fragment,1004,0.026274,normal
+465,OBEX,Rcvd OBEX fragment,1004,0.002836,normal
+466,OBEX,Rcvd OBEX fragment,1004,0.001109,normal
+467,OBEX,Rcvd OBEX fragment,1004,0.004973,normal
+468,OBEX,Rcvd OBEX fragment,1004,0.001837,normal
+469,OBEX,Rcvd OBEX fragment,1004,0.002009,normal
+470,OBEX,Rcvd OBEX fragment,1004,0.003603,normal
+471,OBEX,Rcvd OBEX fragment,1004,0.002491,normal
+472,OBEX,Rcvd OBEX fragment,1004,0.003623,normal
+473,OBEX,Rcvd OBEX fragment,1004,0.04646,normal
+474,OBEX,Rcvd OBEX fragment,1004,0.002431,normal
+475,OBEX,Rcvd OBEX fragment,1004,0.009913,normal
+476,OBEX,Rcvd OBEX fragment,1004,0.001515,normal
+477,OBEX,Rcvd OBEX fragment,1004,0.002355,normal
+478,OBEX,Rcvd OBEX fragment,1004,0.028769,normal
+479,OBEX,Rcvd OBEX fragment,1004,0.002794,normal
+480,OBEX,Rcvd OBEX fragment,1004,0.007679,normal
+481,OBEX,Rcvd OBEX fragment,1004,0.003131,normal
+482,OBEX,Rcvd OBEX fragment,1004,0.00206,normal
+483,OBEX,Rcvd OBEX fragment,1004,0.001527,normal
+484,OBEX,Rcvd OBEX fragment,1004,0.011918,normal
+485,OBEX,Rcvd OBEX fragment,1004,0.003526,normal
+486,OBEX,Rcvd OBEX fragment,1004,0.003727,normal
+487,OBEX,Rcvd OBEX fragment,1004,0.008801,normal
+488,OBEX,Rcvd OBEX fragment,1004,0.001159,normal
+489,OBEX,Rcvd OBEX fragment,1004,0.002531,normal
+490,OBEX,Rcvd OBEX fragment,1004,0.002734,normal
+491,OBEX,Rcvd OBEX fragment,1004,0.002894,normal
+492,OBEX,Rcvd OBEX fragment,1004,0.002555,normal
+493,OBEX,Rcvd OBEX fragment,1004,0.007483,normal
+494,OBEX,Rcvd OBEX fragment,1004,0.001035,normal
+495,OBEX,Rcvd OBEX fragment,1004,0.031237,normal
+496,OBEX,Rcvd OBEX fragment,1004,0.002607,normal
+497,OBEX,Rcvd OBEX fragment,1004,0.002609,normal
+498,OBEX,Rcvd OBEX fragment,1004,0.003507,normal
+499,OBEX,Rcvd OBEX fragment,1004,0.003891,normal
+500,OBEX,Rcvd OBEX fragment,1004,0.003585,normal
+501,OBEX,Rcvd OBEX fragment,1004,0.004005,normal
+502,OBEX,Rcvd OBEX fragment,1004,0.003745,normal
+503,OBEX,Rcvd OBEX fragment,1004,0.001803,normal
+504,OBEX,Rcvd OBEX fragment,1004,0.007686,normal
+505,OBEX,Rcvd OBEX fragment,1004,0.003125,normal
+506,OBEX,Rcvd OBEX fragment,1004,0.001019,normal
+507,OBEX,Rcvd OBEX fragment,1004,0.012786,normal
+508,OBEX,Rcvd OBEX fragment,1004,0.006515,normal
+509,OBEX,Rcvd OBEX fragment,1004,0.002654,normal
+510,OBEX,Rcvd OBEX fragment,1004,0.007901,normal
+511,OBEX,Rcvd OBEX fragment,1004,0.001428,normal
+512,OBEX,Rcvd OBEX fragment,1004,0.005609,normal
+513,OBEX,Rcvd OBEX fragment,1004,0.001579,normal
+514,OBEX,Rcvd OBEX fragment,1004,0.002442,normal
+515,OBEX,Rcvd OBEX fragment,1004,0.003287,normal
+516,OBEX,Rcvd OBEX fragment,1004,0.004336,normal
+517,OBEX,Rcvd OBEX fragment,1004,0.003883,normal
+518,OBEX,Rcvd OBEX fragment,1004,0.004391,normal
+519,OBEX,Rcvd OBEX fragment,1004,0.028746,normal
+520,OBEX,Rcvd OBEX fragment,1004,0.002456,normal
+521,OBEX,Rcvd OBEX fragment,1004,0.001847,normal
+522,OBEX,Rcvd OBEX fragment,1004,0.001442,normal
+523,OBEX,Rcvd OBEX fragment,1004,0.001082,normal
+524,OBEX,Rcvd OBEX fragment,1004,0.0024,normal
+525,OBEX,Rcvd OBEX fragment,1004,0.002369,normal
+526,OBEX,Rcvd OBEX fragment,1004,0.002814,normal
+527,OBEX,Rcvd OBEX fragment,1004,0.000807,normal
+528,OBEX,Rcvd OBEX fragment,1004,0.00288,normal
+529,OBEX,Rcvd OBEX fragment,1004,0.007502,normal
+530,OBEX,Rcvd OBEX fragment,1004,0.010023,normal
+531,OBEX,Rcvd OBEX fragment,1004,0.002538,normal
+532,OBEX,Rcvd OBEX fragment,1004,0.002457,normal
+533,OBEX,Rcvd OBEX fragment,1004,0.008163,normal
+534,OBEX,Rcvd OBEX fragment,1004,0.004983,normal
+535,OBEX,Rcvd OBEX fragment,1004,0.004364,normal
+536,OBEX,Rcvd OBEX fragment,1004,0.000494,normal
+537,OBEX,Rcvd OBEX fragment,1004,0.00874,normal
+538,OBEX,Rcvd OBEX fragment,1004,0.004195,normal
+539,OBEX,Rcvd OBEX fragment,1004,0.002702,normal
+540,OBEX,Rcvd OBEX fragment,1004,0.001072,normal
+541,OBEX,Rcvd OBEX fragment,1004,0.001635,normal
+542,OBEX,Rcvd OBEX fragment,1004,0.001334,normal
+543,OBEX,Rcvd OBEX fragment,1004,0.000988,normal
+544,OBEX,Rcvd OBEX fragment,1004,0.001396,normal
+545,OBEX,Rcvd OBEX fragment,1004,0.006258,normal
+546,OBEX,Rcvd OBEX fragment,1004,0.003868,normal
+547,OBEX,Rcvd OBEX fragment,1004,0.006305,normal
+548,OBEX,Rcvd OBEX fragment,1004,0.009973,normal
+549,OBEX,Rcvd OBEX fragment,1004,0.002698,normal
+550,OBEX,Rcvd OBEX fragment,1004,0.002901,normal
+551,OBEX,Rcvd OBEX fragment,1004,0.003431,normal
+552,OBEX,Rcvd OBEX fragment,1004,0.001108,normal
+553,OBEX,Rcvd OBEX fragment,1004,0.003735,normal
+554,OBEX,Rcvd OBEX fragment,1004,0.0027,normal
+555,OBEX,Rcvd OBEX fragment,1004,0.001359,normal
+556,OBEX,Rcvd OBEX fragment,1004,0.003853,normal
+557,OBEX,Rcvd OBEX fragment,1004,0.005014,normal
+558,OBEX,Rcvd OBEX fragment,1004,0.004296,normal
+559,OBEX,Rcvd OBEX fragment,1004,0.004189,normal
+560,OBEX,Rcvd OBEX fragment,1004,0.001349,normal
+561,OBEX,Rcvd OBEX fragment,1004,0.004089,normal
+562,OBEX,Rcvd OBEX fragment,1004,0.001307,normal
+563,OBEX,Rcvd OBEX fragment,1004,0.004904,normal
+564,OBEX,Rcvd OBEX fragment,1004,0.000842,normal
+565,OBEX,Rcvd OBEX fragment,1004,0.000572,normal
+566,OBEX,Rcvd OBEX fragment,1004,0.011273,normal
+567,OBEX,Rcvd OBEX fragment,1004,0.004799,normal
+568,OBEX,Rcvd OBEX fragment,1004,0.002075,normal
+569,OBEX,Rcvd Put continue,106,0.001487,normal
+570,OBEX,Rcvd Put continue,106,0.001102,normal
+571,OBEX,Rcvd Put continue,104,0.001581,normal
+572,OBEX,Rcvd Put continue,106,0.003302,normal
+573,OBEX,Rcvd Put continue,104,0.000588,normal
+574,OBEX,Rcvd Put continue,106,0.002122,normal
+575,OBEX,Rcvd Put continue,104,0.001927,normal
+576,HCI_EVT,Rcvd Read Clock Offset Complete,8,0.000789,attack
+577,HCI_EVT,Rcvd Read Clock Offset Complete,8,0.000551,attack
+578,HCI_EVT,Rcvd Read Remote Extended Features Complete,16,0.00057,attack
+579,HCI_EVT,Rcvd Read Remote Extended Features Complete,16,0.000585,attack
+580,HCI_EVT,Rcvd Read Remote Version Information Complete,11,0.000551,attack
+581,HCI_EVT,Rcvd Read Remote Version Information Complete,11,0.000609,attack
+582,HCI_CMD,Sent Accept Connection Request,11,0.002165,attack
+583,HCI_CMD,Sent Accept Connection Request,11,0.006904,attack
+584,HCI_CMD,Sent Accept Connection Request,11,0.01597,attack
+585,HCI_CMD,Sent Accept Connection Request,11,0.00863,attack
+586,HCI_CMD,Sent Change Connection Packet Type,8,0.001143,attack
+587,HCI_CMD,Sent Change Connection Packet Type,8,0.000503,attack
+588,OBEX,Sent Continue,21,0.022342,normal
+589,OBEX,Sent Continue,21,0.019993,normal
+590,OBEX,Sent Continue,21,0.013242,normal
+591,OBEX,Sent Continue,21,0.012631,normal
+592,OBEX,Sent Continue,21,0.017135,normal
+593,OBEX,Sent Continue,21,0.019131,normal
+594,OBEX,Sent Continue,21,0.015619,normal
+595,L2CAP,Sent Information Request (Extended Features Mask),15,0.00195,attack
+596,L2CAP,Sent Information Request (Extended Features Mask),15,0.002075,attack
+597,HCI_CMD,Sent Link Key Request Negative Reply,10,0.00298,attack
+598,HCI_CMD,Sent Link Key Request Negative Reply,10,0.002481,attack
+599,HCI_CMD,Sent Link Key Request Negative Reply,10,0.003138,attack
+600,HCI_CMD,Sent Link Key Request Negative Reply,10,0.005496,attack
+601,HCI_CMD,Sent Link Key Request Negative Reply,10,0.002672,attack
+602,HCI_CMD,Sent Link Key Request Negative Reply,10,0.003954,attack
+603,HCI_CMD,Sent Link Key Request Negative Reply,10,0.003079,attack
+604,HCI_CMD,Sent Link Key Request Negative Reply,10,0.002809,attack
+605,HCI_CMD,Sent Link Key Request Negative Reply,10,0.002929,attack
+606,HCI_CMD,Sent Link Key Request Negative Reply,10,0.011543,attack
+607,HCI_CMD,Sent Link Key Request Negative Reply,10,0.002725,attack
+608,HCI_CMD,Sent Link Key Request Negative Reply,10,0.002718,attack
+609,HCI_CMD,Sent Link Key Request Negative Reply,10,0.003023,attack
+610,HCI_CMD,Sent Link Key Request Negative Reply,10,0.003081,attack
+611,HCI_CMD,Sent Link Key Request Negative Reply,10,0.002693,attack
+612,HCI_CMD,Sent Read Clock offset,6,0.003292,attack
+613,HCI_CMD,Sent Read Clock offset,6,0.003888,attack
+614,HCI_CMD,Sent Read Remote Extended Features,7,0.000511,attack
+615,HCI_CMD,Sent Read Remote Extended Features,7,0.000512,attack
+616,HCI_CMD,Sent Read Remote Version Information,6,0.000772,attack
+617,HCI_CMD,Sent Read Remote Version Information,6,0.000508,attack
+618,RFCOMM,Sent UIH Channel=12 UID ,14,0.006255,normal
+619,RFCOMM,Sent UIH Channel=12 UID ,14,0.004697,normal
+620,RFCOMM,Sent UIH Channel=12 UID ,14,0.004678,normal
+621,RFCOMM,Sent UIH Channel=12 UID ,14,0.003123,normal
+622,RFCOMM,Sent UIH Channel=12 UID ,14,0.004918,normal
+623,RFCOMM,Sent UIH Channel=12 UID ,14,0.004194,normal
+624,RFCOMM,Sent UIH Channel=12 UID ,14,0.004157,normal
+625,RFCOMM,Sent UIH Channel=12 UID ,14,0.008009,normal
+626,RFCOMM,Sent UIH Channel=12 UID ,14,0.006977,normal
+627,RFCOMM,Sent UIH Channel=12 UID ,14,0.012357,normal
+628,RFCOMM,Sent UIH Channel=12 UID ,14,0.003002,normal
+629,RFCOMM,Sent UIH Channel=12 UID ,14,0.008223,normal
+630,RFCOMM,Sent UIH Channel=12 UID ,14,0.008152,normal
+631,RFCOMM,Sent UIH Channel=12 UID ,14,0.005771,normal
+632,RFCOMM,Sent UIH Channel=12 UID ,14,0.00406,normal
+633,RFCOMM,Sent UIH Channel=12 UID ,14,0.00341,normal
+634,RFCOMM,Sent UIH Channel=12 UID ,14,0.004689,normal
+635,RFCOMM,Sent UIH Channel=12 UID ,14,0.004297,normal
+636,RFCOMM,Sent UIH Channel=12 UID ,14,0.004428,normal
+637,RFCOMM,Sent UIH Channel=12 UID ,14,0.011387,normal
+638,RFCOMM,Sent UIH Channel=12 UID ,14,0.005604,normal
+639,RFCOMM,Sent UIH Channel=12 UID ,14,0.004028,normal
+640,RFCOMM,Sent UIH Channel=12 UID ,14,0.004599,normal
+641,RFCOMM,Sent UIH Channel=12 UID ,14,0.004763,normal
+642,RFCOMM,Sent UIH Channel=12 UID ,14,0.007037,normal
+643,RFCOMM,Sent UIH Channel=12 UID ,14,0.004503,normal
+644,RFCOMM,Sent UIH Channel=12 UID ,14,0.004344,normal
+645,RFCOMM,Sent UIH Channel=12 UID ,14,0.004222,normal
+646,RFCOMM,Sent UIH Channel=12 UID ,14,0.003403,normal
+647,RFCOMM,Sent UIH Channel=12 UID ,14,0.008887,normal
+648,RFCOMM,Sent UIH Channel=12 UID ,14,0.003029,normal
+649,RFCOMM,Sent UIH Channel=12 UID ,14,0.005833,normal
+650,RFCOMM,Sent UIH Channel=12 UID ,14,0.008687,normal
+651,RFCOMM,Sent UIH Channel=12 UID ,14,0.003071,normal
+652,RFCOMM,Sent UIH Channel=12 UID ,14,0.00295,normal
+653,RFCOMM,Sent UIH Channel=12 UID ,14,0.006071,normal
+654,RFCOMM,Sent UIH Channel=12 UID ,14,0.003821,normal
+655,RFCOMM,Sent UIH Channel=12 UID ,14,0.005662,normal
+656,RFCOMM,Sent UIH Channel=12 UID ,14,0.003423,normal
+657,RFCOMM,Sent UIH Channel=12 UID ,14,0.003574,normal
+658,RFCOMM,Sent UIH Channel=12 UID ,14,0.005622,normal
+659,RFCOMM,Sent UIH Channel=12 UID ,14,0.004789,normal
+660,RFCOMM,Sent UIH Channel=12 UID ,14,0.011038,normal
+661,RFCOMM,Sent UIH Channel=12 UID ,14,0.008654,normal
+662,RFCOMM,Sent UIH Channel=12 UID ,14,0.004693,normal
+663,RFCOMM,Sent UIH Channel=12 UID ,14,0.006728,normal
+664,RFCOMM,Sent UIH Channel=12 UID ,14,0.00426,normal
+665,RFCOMM,Sent UIH Channel=12 UID ,14,0.006986,normal
+666,RFCOMM,Sent UIH Channel=12 UID ,14,0.005902,normal
+667,RFCOMM,Sent UIH Channel=12 UID ,14,0.008676,normal
+668,RFCOMM,Sent UIH Channel=12 UID ,14,0.007067,normal
+669,RFCOMM,Sent UIH Channel=12 UID ,14,0.005024,normal
+670,RFCOMM,Sent UIH Channel=12 UID ,14,0.002928,normal
+671,RFCOMM,Sent UIH Channel=12 UID ,14,0.005664,normal
+672,RFCOMM,Sent UIH Channel=12 UID ,14,0.014613,normal
+673,RFCOMM,Sent UIH Channel=12 UID ,14,0.004307,normal
+674,RFCOMM,Sent UIH Channel=12 UID ,14,0.004422,normal
+675,RFCOMM,Sent UIH Channel=12 UID ,14,0.005791,normal
+676,RFCOMM,Sent UIH Channel=12 UID ,14,0.002926,normal
+677,RFCOMM,Sent UIH Channel=12 UID ,14,0.001095,normal
+678,RFCOMM,Sent UIH Channel=12 UID ,14,0.011254,normal
+679,RFCOMM,Sent UIH Channel=12 UID ,14,0.004725,normal
+680,RFCOMM,Sent UIH Channel=12 UID ,14,0.007461,normal
+681,RFCOMM,Sent UIH Channel=12 UID ,14,0.004628,normal
+682,RFCOMM,Sent UIH Channel=12 UID ,14,0.004705,normal
+683,RFCOMM,Sent UIH Channel=12 UID ,14,0.002891,normal
+684,RFCOMM,Sent UIH Channel=12 UID ,14,0.007302,normal
+685,RFCOMM,Sent UIH Channel=12 UID ,14,0.006478,normal
+686,HCI_CMD,Sent Write Link Policy Settings,8,0.000478,attack
+687,HCI_CMD,Sent Write Link Policy Settings,8,0.00046,attack
+688,HCI_CMD,Sent Write Link Policy Settings,8,0.00049,attack
+689,HCI_CMD,Sent Write Scan Enable,5,0.0,attack
+690,HCI_CMD,Sent Write Scan Enable,5,0.048534,attack
